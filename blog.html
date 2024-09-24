@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>create Blog</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <div id = 'topic'>
+    Post your blog here
+  </div>
+  <form action="/action_page.php" id = "blog">
+    <label for="title">Blog title:</label>
+    <input type="text" id="title" name="title"><br><br>
+    <label for="author">Author:</label>
+    <input type="text" id="author" name="author"><br><br>
+    <label for="paragraph">Paragraph:</label>
+    <textarea id="paragraph" name="paragraph" rows="10"></textarea><br><br>
+    <button type="submit">Post Article</button>
+  </form>
+  <div id = 'postedblog'>
+
+  </div>
+  <script src='./scripts.js'></script>
+</body>
+
+
+</html>
