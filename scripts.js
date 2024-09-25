@@ -5,7 +5,8 @@ document.getElementById('blog').addEventListener('submit', function(event){
     author = document.getElementById('author').value;
 
 
-    dynamic_content = `<div class="post">
+    dynamic_content = ` <h2> Posted blogs</h2>
+                        <div class="post">
                         <h2>${title}</h2>
                         <p><strong>By:</strong> ${author}</p>
                         <p>${paragraph}</p>
