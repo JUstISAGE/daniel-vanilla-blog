@@ -20,25 +20,34 @@ body {
 
 #container{
   display: flex;
-  
+}
+
+#padding1{
+  display: hidden;
+  width: 16%;
 }
 
 #create_blog {
   font-family: 'Edu AU VIC WA NT Guides';
   color: black;
   background: white;
-  width: 50%;
+  width: 16%;
 }
 
 #create_blog h2{
   font-size: 2em;
 }
 
+#padding2{
+  display: hidden;
+  width: 32%;
+}
+
 #postedblog{
   font-family: 'Edu AU VIC WA NT Guides';
   color: black;
   background: white;
-  width: 50%;
+  width: 16%;
 }
 
 #postedblog h2{
