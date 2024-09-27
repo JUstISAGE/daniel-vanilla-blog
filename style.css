@@ -12,46 +12,65 @@ body {
 }
 
 #topic {
-  font-family: 'Edu AU VIC WA NT Guides';
+  font-family: 'Young Serif';
   font-size: 5em;
   color:black;
   text-align:center;
 }
 
-#container{
-  display: flex;
+#buttonforcreate {
+  border: 1px solid rgb(43, 17, 17);
+  border-radius: 8px;
+  font-family: 'Young Serif';
+  background: lightblue;
+  margin-bottom: 20px;
+  width: 250px;
+  font-size: 1em;
+  height: 60px;
+  font-weight: bold;
 }
 
-#padding1{
-  display: hidden;
-  width: 16%;
+#buttonforcreate:hover{
+  text-decoration: underline;
 }
 
 #create_blog {
-  font-family: 'Edu AU VIC WA NT Guides';
-  color: black;
-  background: white;
-  width: 16%;
+  font-family: 'Young Serif';
+  display: none; 
+  position: fixed; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 1000; 
+  background: white; 
+  border: 1px solid rgb(43, 17, 17);
+  border-radius: 10px; 
+              
+  justify-content: center; 
+    
+    
+  width: 50%; 
 }
 
 #create_blog h2{
   font-size: 2em;
 }
 
-#padding2{
-  display: hidden;
-  width: 32%;
-}
-
 #postedblog{
-  font-family: 'Edu AU VIC WA NT Guides';
+  font-family: 'Young Serif';
   color: black;
-  background: white;
-  width: 16%;
+  width: 100%;
+  margin: auto;
+  display: flex;
 }
 
-#postedblog h2{
-  font-size: 2em;
+
+.originalpost {
+  border: 1px solid rgb(43, 17, 17);
+  border-radius: 8px;
+  width: 50%;
+  margin: auto;
+  background: white;
 }
 
 .post {

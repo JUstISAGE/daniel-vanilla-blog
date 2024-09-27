@@ -6,30 +6,38 @@
 	<title>create Blog</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
   <h1 id="topic">
     Where Every Blog Begins
   </h1>
-  <div id="container">
-    <div id="padding1"></div>
-    <div id="create_blog">
-      <h2> Create your blog here</h2>
-      <form action="/action_page.php" id = "blog">
-        <label for="title">Blog title:</label>
-        <input type="text" id="title" name="title"><br><br>
-        <label for="author">Author:</label>
-        <input type="text" id="author" name="author"><br><br>
-        <label for="paragraph">Paragraph:</label>
-        <textarea id="paragraph" name="paragraph" rows="10"></textarea><br><br>
-        <button type="submit">Post Article</button>
-      </form>
+  <button onclick="createnewblog()" id="buttonforcreate">Click to create your blog</button>
+  <div id="create_blog">
+    <h2> Create your blog here</h2>
+    <div id = "blog">
+      <label for="title">Blog title:</label>
+      <input type="text" id="title" name="title"><br><br>
+      <label for="author">Author:</label>
+      <input type="text" id="author" name="author"><br><br>
+      <label for="paragraph">Paragraph:</label>
+      <textarea id="paragraph" name="paragraph" rows="10"></textarea><br><br>
+      <button onclick="postnewblog()">Post Article</button>
+      <button onclick="cancelcreate()">Cancel</button>
     </div>
-    <div id="padding2"></div>
-    <div id = 'postedblog'>
-      <h2> Posted blogs</h2>
+  </div>
+  <div id = 'postedblog'>
+    <div class="originalpost">
+      <h2>A brief introduction about me</h2>
+      <p><strong>By:</strong> Shuhan Lyu</p>
+      <p>I am a fourth year undergraduate studying at university of California
+           Santa Barbara. I major in both mathematics and computer science. I have a
+           a keen interest in areas such as cryptography, network security, and web development
+           At university, I systematically studied algorithms, object-oriented programming, web development, 
+           and machine learning. These courses helped me build a solid theoretical foundation and develop 
+           my ability to solve real-world problems. I have also self-studied some knowledge in network security, 
+           including SQL injection and intercepting communication.</p>
     </div>
   </div>
   <script src='./scripts.js'></script>
