@@ -5,7 +5,7 @@ Plog posting website
 
 This project aims to provide a platform for people to post their blogs.
 
-#How use this project
+# How use this project
 
 1. Download the whole file to local computer
 2. Open the html file with the name blog
