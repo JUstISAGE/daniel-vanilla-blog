@@ -1,4 +1,4 @@
-# Project Name
+# Posting your blogs
 Plog posting website
 
 ## About the Project
